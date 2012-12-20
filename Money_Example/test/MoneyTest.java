@@ -27,7 +27,6 @@ public class MoneyTest {
 	
 	@Test
 	public void testSimpleAddition() {
-		//Money sum = Money.dollar(5).plus(Money.dollar(5));
 		Money five = Money.dollar(5);
 		Expression sum = five.plus(five);
 		Bank bank = new Bank();
